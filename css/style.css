@@ -780,8 +780,8 @@ body ::selection {
 }
 .work__slider {
   opacity: 0;
-  -webkit-transform: translateY(10%);
-  transform: translateY(10%);
+  -webkit-transform: translateY(1.875rem);
+  transform: translateY(1.875rem);
   transition: all .6s ease .4s
 }
 .work__slider._watcher-view {
@@ -996,6 +996,7 @@ body ::selection {
 }
 .contact__form {
   padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
   display: flex;
   align-items: center;
   gap: 1.875rem
@@ -1070,7 +1071,6 @@ body ::selection {
   background-color: var(--backgroundView-1)
 }
 .contact__map {
-  padding-top: 3.75rem;
   position: relative
 }
 .contact__map::after,
